@@ -4,8 +4,8 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<title>הרצאות וסדנאות בחדשנות, יזמות וחשיבה יצירתית | ד״ר אבי בן שמעון</title>
-<meta content="ד״ר אבי בן שמעון, יזם, מדען ומרצה, מציע הרצאות וסדנאות לארגונים, מנהלים ואנשי חינוך בתחומי חדשנות, יזמות, מנהיגות, חשיבה יצירתית וסיעור מוחות, לצד מודלים וגישות ייחודיות בהשראת חוקיות הטבע — האמת שבטבע." name="description"/>
+<title>ד״ר אבי בן שמעון | מדע, יזמות וחדשנות</title>
+<meta content="ד״ר אבי בן שמעון – מדע, יזמות וחדשנות. יזם, מדען, איש חינוך ודבוראי, מרצה ומנחה סדנאות בתחומי חדשנות, יזמות, חשיבה יצירתית ומנהיגות." name="description"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:ital,wght@0,400;0,500;0,700;1,500;1,700&amp;family=Heebo:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
@@ -891,7 +891,7 @@ footer{background:#1B2E3E}
   #mobile-vision-bridge{display:block;box-sizing:border-box;max-width:100%;padding:24px 22px 0;background:transparent;color:var(--sand,#F3F0E9);text-align:justify;direction:rtl}
   #mobile-vision-bridge p{font-family:'Heebo',Arial,sans-serif!important;font-size:17px!important;font-weight:400!important;line-height:1.8!important;letter-spacing:0!important;max-width:520px;margin:0 auto!important;text-align:justify!important;text-align-last:right!important}
   #mobile-vision-bridge .mobile-vision-divider{width:92px;height:1px;margin:28px auto 0;background:rgba(240,185,79,.55)}
-  #mobile-vision-bridge{margin-bottom:143px!important;min-height:var(--mobile-bridge-height,auto);display:flex!important;flex-direction:column!important;justify-content:flex-start!important}
+  #mobile-vision-bridge{margin-bottom:100px!important;min-height:var(--mobile-bridge-height,auto);display:flex!important;flex-direction:column!important;justify-content:flex-start!important}
   #mobile-vision-bridge .mobile-vision-divider{margin-top:auto!important;margin-bottom:0!important;flex-shrink:0!important}
   #about{padding-top:25px!important}
   #about .about-conclusion{display:none!important}
@@ -899,6 +899,14 @@ footer{background:#1B2E3E}
 }
 @keyframes visionBridgeEntrance{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){#mobile-vision-bridge{animation:none!important}}
+</style><meta content="ד״ר אבי בן שמעון | מדע, יזמות וחדשנות" property="og:title"/><meta content="ד״ר אבי בן שמעון – מדע, יזמות וחדשנות. יזם, מדען, איש חינוך ודבוראי, מרצה ומנחה סדנאות בתחומי חדשנות, יזמות, חשיבה יצירתית ומנהיגות." property="og:description"/><style id="mobile-contact-nowrap-v48">/* Mobile contact links: icon above label and unbroken value. */
+@media(max-width:760px){
+ #contact .contacts .ci{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:flex-start!important;text-align:center!important;gap:8px!important;width:100%!important;min-width:0!important;padding:8px 2px!important}
+ #contact .contacts .ci>div:last-child{display:flex!important;flex-direction:column!important;align-items:center!important;min-width:0!important;width:100%!important}
+ #contact .contacts .ci .ico{flex-shrink:0!important}
+ #contact .contacts .ci b{white-space:nowrap!important;text-align:center!important}
+ #contact .contacts .ci small{white-space:nowrap!important;overflow-wrap:normal!important;word-break:normal!important;text-align:center!important;direction:ltr!important;font-size:clamp(10px,2.65vw,13px)!important;letter-spacing:-.15px!important;max-width:100%!important}
+}
 </style></head>
 <body>
 <header id="siteHeader"><a class="brand" href="#home"><span>ד״ר אבי בן־שמעון</span></a><nav>
@@ -1262,7 +1270,7 @@ body{max-width:100%;overflow-x:clip}
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',alignMobileBridge);
   else alignMobileBridge();
-  window.addEventListener('resize',alignMobileBridge);
+  window.addEventListener('orientationchange',function(){setTimeout(alignMobileBridge,250);});
 })();
 </script>
 </body>
